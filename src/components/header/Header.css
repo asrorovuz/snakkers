@@ -1,0 +1,43 @@
+header{
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 44px;
+}
+
+.logo {
+  column-gap: 10px;
+}
+
+.logo .logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo .logo-img img {
+  width: 100%;
+}
+
+.logo .logo-text h1 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.logo .logo-text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.right{
+    column-gap: 30px;
+}
+
+.header-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.price{
+    column-gap: 10px;
+    color: var(--dark-gray);
+}
