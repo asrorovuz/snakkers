@@ -1,6 +1,6 @@
 header{
     border-bottom: 1px solid var(--gray);
-    padding-bottom: 44px;
+    padding-bottom: 45px;
 }
 
 .logo {
@@ -35,6 +35,7 @@ header{
 .header-icon{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .price{

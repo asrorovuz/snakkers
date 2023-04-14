@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assistant/logo.png";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ showBasket }) => {
   return (
     <header className="d-flex">
       <div className="logo d-flex">
@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <div className="d-flex right">
         <div className="price d-flex">
-          <div className="header-icon">
+          <div className="header-icon" onClick={showBasket}>
             <svg
               width="20"
               height="20"
