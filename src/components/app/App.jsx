@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Banner from '../banner/Banner'
 import Basket from '../basket/Basket'
 import Header from '../header/Header'
 import './App.css'
@@ -22,6 +23,7 @@ export const App = () => {
       <Basket basket={basket} hideBasket={hideBasket}/>
       <main className='main container'> 
         <Header showBasket={showBasket}/> 
+        <Banner />
       </main>
     </div>
   )

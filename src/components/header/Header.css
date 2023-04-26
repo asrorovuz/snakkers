@@ -1,6 +1,7 @@
 header{
     border-bottom: 1px solid var(--gray);
     padding-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .logo {
