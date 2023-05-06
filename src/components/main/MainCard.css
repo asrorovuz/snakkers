@@ -1,0 +1,62 @@
+.main .card-header h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 40px 0;
+}
+
+.search-block{
+    position: relative;
+}
+
+.search-block label{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    cursor: pointer;
+}
+
+.search-block input {
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 18px 15px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 46px;
+}
+
+input::placeholder {
+  color: #c4c4c4;
+}
+
+.main .cards {
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.main .cards .card {
+  width: 210px;
+  height: 360px;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  padding: 20px 30px 34px 30px;
+  position: relative;
+}
+
+.card-like{
+    cursor: pointer;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.card-img{
+    width: 133px;
+    height: 112px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
