@@ -15,7 +15,7 @@ const MainCard = () => {
     }
 
   return (
-    <div className="main">
+    <>
       <div className="d-flex card-header">
         <h2>Все кроссовки</h2>
         <div className="d-flex search-block">
@@ -53,7 +53,7 @@ const MainCard = () => {
         <div className="card"></div>
         <div className="card"></div>
       </div>
-    </div>
+    </>
   );
 };
 

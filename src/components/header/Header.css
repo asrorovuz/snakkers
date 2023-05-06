@@ -2,6 +2,8 @@ header{
     border-bottom: 1px solid var(--gray);
     padding-bottom: 45px;
     margin-bottom: 45px;
+    background-color: var(--light);
+    border-radius: 20px 20px 0 0;
 }
 
 .logo {
